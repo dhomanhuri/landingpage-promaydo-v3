@@ -30,7 +30,7 @@ const AnimatedBackground = () => {
         this.x = Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize;
         this.y = Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize;
         this.size = Math.random() * 2 + 1;
-        this.speed = Math.random() * 2 + 2;
+        this.speed = Math.random() * 1 + 0.5;
         this.color = colors[Math.floor(Math.random() * colors.length)];
         this.direction = Math.random() > 0.5 ? 'horizontal' : 'vertical';
         this.length = Math.random() * 100 + 50; // Length of the trail
@@ -109,7 +109,7 @@ const AnimatedBackground = () => {
         this.x = x;
         this.y = y;
         this.pulse = 0;
-        this.pulseSpeed = Math.random() * 0.05 + 0.02;
+        this.pulseSpeed = Math.random() * 0.02 + 0.01;
         this.active = Math.random() > 0.8; // Only some nodes are active
         this.color = colors[Math.floor(Math.random() * colors.length)];
       }
@@ -153,7 +153,7 @@ const AnimatedBackground = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
       // Draw faint grid
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
       ctx.lineWidth = 1;
       ctx.beginPath();
       for (let x = 0; x <= canvas.width; x += gridSize) {
@@ -193,7 +193,7 @@ const AnimatedBackground = () => {
     <canvas
       ref={canvasRef}
       className="fixed top-0 left-0 w-full h-full pointer-events-none z-0"
-      style={{ opacity: 0.3 }}
+      style={{ opacity: 0.4 }}
     />
   );
 };
