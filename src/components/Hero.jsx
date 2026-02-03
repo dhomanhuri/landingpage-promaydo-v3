@@ -97,18 +97,18 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <a href="#contact" className="group relative px-8 py-4 bg-brand-green text-brand-dark font-bold rounded-lg overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(16,185,129,0.5)]">
+            <a href="https://promaydo-tech.com/showcase_station/1/" target="_blank" rel="noopener noreferrer" className="group relative px-8 py-4 bg-brand-green text-brand-dark font-bold rounded-lg overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(16,185,129,0.5)]">
               <span className="relative z-10 flex items-center gap-2">
-                Initialize Project
-                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                Showcase Station 1
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </span>
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
             </a>
             
-            <a href="#services" className="group px-8 py-4 border border-brand-light-blue text-brand-light-blue font-bold rounded-lg hover:bg-brand-light-blue/10 hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all">
+            <a href="https://promaydo-tech.com/showcase_station/2/" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 border border-brand-light-blue text-brand-light-blue font-bold rounded-lg hover:bg-brand-light-blue/10 hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all">
               <span className="flex items-center gap-2">
-                Explore Core
-                <svg className="w-5 h-5 group-hover:rotate-90 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                Showcase Station 2
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </span>
             </a>
           </motion.div>

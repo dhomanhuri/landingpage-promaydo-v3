@@ -6,3 +6,16 @@
   --color-brand-light-blue: #3b82f6;
   --color-brand-dark: #0f172a;
 }
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
